@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <table>
+    <form action="">
+        <tr>
+            <td><label for="FName">First Name</label></td>
+            <td><input type="text" id="FName" placeholder="Enter Your First Name" required></td>
+        </tr>
+        <tr>
+            <td><label for="LName">Last Name</label></td>
+            <td><input type="text" id="LName" placeholder="Enter Your Last Name" required></td>
+        </tr>
+        <tr>
+            <td><label for="Phn">Mobile No</label></td>
+            <td><input type="tel" maxlength="10" id="Phn"></td>
+        </tr>
+        <tr>
+            <td><label for="age">Age</label></td>
+            <td><input type="number" id="age" min="1" max="99"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Sob">State Of Birth</label>
+            </td>
+            <td><select name="" id="Sob">
+                <option value="">Andhra Pradesh</option>
+                <option value="">Telangana</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="Dob">Date Of Birth</label></td>
+            <td><input type="date" id="Dob"></td>
+        </tr>
+        <tr>
+            <td><label for="Addrs">Address</label></td>
+            <td><textarea name="" id="Addrs" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email ID</label></td>
+            <td><input type="email" id="Email" value="@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="Password">Password</label></td>
+            <td><input type="password" id="Password"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label>
+                <td><label for="Gender">Male</label>
+                <input type="radio" name="Gender">
+                <label for="Gender">Female</label>
+                <input type="radio" name="Gender"></td></td>
+        </tr>
+        <tr>
+            <td><label for="Prop">Properties</label></td>
+            <td><input type="checkbox" id="Prop">Car
+            <input type="checkbox" id="Prop">Bike
+            <input type="checkbox" id="Prop">Mobie
+            <input type="checkbox" id="Prop">Laptop</td>
+        </tr>
+        <tr>
+            <td><label for="photo">Upload Your Photo</label></td>
+            <td><input type="file" multiple id="photo"></td>
+        </tr>
+        <tr>
+            <td><label for="disb">Filled all</label></td>
+            <td><input type="text" value="Yes" disabled></td>
+        </tr>
+        <tr>
+            <td><label for="disc">Disclaimer</label></td>
+            <td><input type="text" value="Submit after filling" readonly></td>
+        </tr>
+        <tr>
+            <td><input type="submit"></td>
+            <td><input type="reset"></td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
