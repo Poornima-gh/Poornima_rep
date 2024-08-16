@@ -1,0 +1,7 @@
+C:\dotnetclass\Arithoperators\Arithoperators\bin\Debug\Arithoperators.exe.config
+C:\dotnetclass\Arithoperators\Arithoperators\bin\Debug\Arithoperators.exe
+C:\dotnetclass\Arithoperators\Arithoperators\bin\Debug\Arithoperators.pdb
+C:\dotnetclass\Arithoperators\Arithoperators\obj\Debug\Arithoperators.csproj.AssemblyReference.cache
+C:\dotnetclass\Arithoperators\Arithoperators\obj\Debug\Arithoperators.csproj.CoreCompileInputs.cache
+C:\dotnetclass\Arithoperators\Arithoperators\obj\Debug\Arithoperators.exe
+C:\dotnetclass\Arithoperators\Arithoperators\obj\Debug\Arithoperators.pdb
